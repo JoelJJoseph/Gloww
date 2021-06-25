@@ -35,9 +35,9 @@ def app():
     st.markdown(new_title, unsafe_allow_html=True)
     
     st.write(" ")
-    import streamlit.components.v1 as components 
     result = st.button ("Video Calling")
     if result:
+         import streamlit.components.v1 as components
         components.html(
     """
     <head>
