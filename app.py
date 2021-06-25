@@ -9,6 +9,9 @@ import numpy as np
 from img_classification import teachable_machine_classification # import your app modules here
 app = MultiApp()
 
+[theme]
+base="dark"
+
 new_title = '<p style="font-family:sans-serif; color:Black; font-size: 52px;"><b>GLOWW APP</b></p>'
 st.markdown(new_title, unsafe_allow_html=True)
 
