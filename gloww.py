@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit.components.v1 as components
+import streamlit.components.v1 as st.components.v1.html
 import base64
 from PIL import Image
 
