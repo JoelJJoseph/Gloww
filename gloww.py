@@ -39,7 +39,7 @@ def app():
     if result:
         import streamlit.components.v1 as components
         components.html(
-    "
+    """
     <head>
   <script src='https://meet.jit.si/external_api.js'></script>
 </head>
@@ -77,7 +77,7 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
 </script>
 </body>
 </html>
-",
+""",
     height=600
 )   
     new_title = '<p style="font-family:Sans One; color:Red; font-size: 32px;"><b>Contact:<b></p>'
