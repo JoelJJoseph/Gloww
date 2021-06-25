@@ -37,7 +37,7 @@ def app():
     st.write(" ")
     result = st.button ("Video Calling")
     if result:
-         import streamlit.components.v1 as components
+        import streamlit.components.v1 as components
         components.html(
     """
     <head>
