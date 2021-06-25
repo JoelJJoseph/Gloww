@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit.components.v1 as st.components.v1.html
+import streamlit.components.v1 as components
 import base64
 from PIL import Image
 
@@ -38,7 +38,7 @@ def app():
     st.write(" ")
     result = st.button ("Video Calling")
     if result:
-       st.components.v1.html(
+       components.html(
     """
     <head>
   <script src='https://meet.jit.si/external_api.js'></script>
