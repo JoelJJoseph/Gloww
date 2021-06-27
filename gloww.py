@@ -79,10 +79,9 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
 ,
     height=600
 )   
-   
+    st.write(" ")
     new_title = '<p style="font-family:Fjord One; color:black; font-size: 32px;"><b>Connect:</b></p>'
     st.markdown(new_title, unsafe_allow_html=True)
-    st.write(" ")
     st.components.v1.html(
     """
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
