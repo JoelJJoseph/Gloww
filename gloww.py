@@ -93,7 +93,7 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
  </ul><style>body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background: #Black;
   display: flex;
   justify-content: center;
   align-items: center;
