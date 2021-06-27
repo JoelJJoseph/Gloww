@@ -79,7 +79,7 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
 ,
     height=600
 )   
-    new_title = '<p style="font-family:Fjord One; color:Black; font-size: 32px;"><b>Connect:<b></p>'
+    new_title = '<p style="font-family:Fjord One; color:black; font-size: 32px;"><b>Connect:</b></p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.write(" ")
     st.components.v1.html(
