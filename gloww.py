@@ -79,6 +79,7 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
 ,
     height=600
 )   
+    st.write(" ")
     new_title = '<p style="font-family:Fjord One; color:black; font-size: 32px;"><b>Connect:</b></p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.write(" ")
@@ -93,7 +94,7 @@ var randomString = Array.apply(null, Array(stringLength)).map(pickRandom).join('
  </ul><style>body {
   margin: 0;
   padding: 0;
-  background: #Black;
+  background: #010203;
   display: flex;
   justify-content: center;
   align-items: center;
