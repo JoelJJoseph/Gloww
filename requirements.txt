@@ -1,4 +1,4 @@
-﻿scikit-learn==0.22.1
+scikit-learn==0.22.1
 matplotlib==3.2.2
 numpy==1.18.1
 pandas==1.0.5
@@ -7,3 +7,4 @@ Werkzeug==1.0.1
 keras==2.4.0
 plotly==4.14.3
 scipy==1.5.2
+mlrun
