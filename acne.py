@@ -42,7 +42,7 @@ def app():
         st.write("Classifying...")
         label = teachable_machine_classification(image, 'Acne_model.h5')
         if label == 0:
-            st.write("The Image has is a acne")
+            st.write("The Image has acne")
             
         else:
             st.write("The Image has no acne")
