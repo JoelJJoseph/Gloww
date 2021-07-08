@@ -238,6 +238,12 @@ ul li:hover:nth-child(3) a::after {
           </section>
         </div>
       </div>
+      <div class="showcase__integrate__content">
+          <!-- Add content here ... -->
+          <section class="showcase__integrate__wrapper" style="padding: 0px;">
+            <hcl-sdk class="hydrated"></hcl-sdk>
+          </section>
+        </div>
   </body>
 
     </head>
