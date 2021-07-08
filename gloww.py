@@ -225,22 +225,10 @@ if result:
   components.html(
 """
 <html>
-
   <body>
+  
 
-    <!-- Previously loaded SDK API -->
-
-    <script>      
-
-      // Initialize HCL SDK API
-
-      const hclAPI = new HclAPI({
-
-        apiKey: '300185e463b5e96f' // To replace by a working API key
-
-      });
-
-    </script>
+    <script src="https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js"></script>
 
   </body>
   </html>
