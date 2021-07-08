@@ -219,15 +219,14 @@ ul li:hover:nth-child(3) a::after {
 }
 </style>""")
 
-st.write(" ")
-result = st.button ("Heathcare locator")
-if result:
-  components.html(
-"""
-<html>
+    st.write(" ")
+    result = st.button ("Heathcare locator")
+    if result:
+     components.html(
+```html
+
   <body>
-    <script src="https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js"></script>
-  
+
     <!-- Previously loaded SDK API -->
 
     <script>      
@@ -236,13 +235,14 @@ if result:
 
       const hclAPI = new HclAPI({
 
-        apiKey: '300185e463b5e96f' // To replace by a working API key
+        apiKey: 'YOUR_API_KEY' // To replace by a working API key
 
       });
 
     </script>
- </body>
-  </html>
-  """,height=600)
+
+  </body>
+
+```,height=600)
   
 
