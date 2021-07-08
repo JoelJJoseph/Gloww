@@ -244,6 +244,7 @@ if result:
 
   </body>
   </html>
-  """)
+  """,
+      height=600)
   
 
