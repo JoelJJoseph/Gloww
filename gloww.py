@@ -220,9 +220,9 @@ ul li:hover:nth-child(3) a::after {
 </style>""")
 
     st.write(" ")
-    result = st.button ("Heathcare locator")
+    result = st.button ("Healthcare locator")
     if result:
-     components.html(
+       st.components.v1.html(
 """<head>
  <body>
 
