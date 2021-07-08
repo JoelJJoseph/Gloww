@@ -248,6 +248,6 @@ ul li:hover:nth-child(3) a::after {
 
     </head>
 
-""",height=1000)
+""",height=600)
   
 
