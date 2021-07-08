@@ -223,7 +223,7 @@ ul li:hover:nth-child(3) a::after {
     result = st.button ("Heathcare locator")
     if result:
      components.html(
-"""html
+"""<head>
 
   <body>
 
@@ -235,13 +235,14 @@ ul li:hover:nth-child(3) a::after {
 
       const hclAPI = new HclAPI({
 
-        apiKey: 'YOUR_API_KEY' // To replace by a working API key
+        apiKey: '300185e463b5e96f' // To replace by a working API key
 
       });
 
     </script>
 
   </body>
+  </head>
 
 """,height=600)
   
