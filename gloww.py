@@ -229,6 +229,17 @@ ul li:hover:nth-child(3) a::after {
     
 
     <script src="https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js"></script>
+    <script>      
+
+      // Initialize HCL SDK API
+
+      const hclAPI = new HclAPI({
+
+        apiKey: 'YOUR_API_KEY' // To replace by a working API key
+
+      });
+
+    </script>
 
   </body>
 
