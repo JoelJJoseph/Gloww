@@ -225,21 +225,52 @@ ul li:hover:nth-child(3) a::after {
        st.components.v1.html(
 """<head>
 <body>
+<div class="full-width-wrapper">
+                      
 
+                    <script src="https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js"></script>
+<div class="block showcase bg-banner-gradient">
+  <div class="container">
     
+    <h3 class="title title--big block__title regular  title--invert ">Developers hub</h3>
+    <p class="block__description  block__color-description-dark-bg ">Welcome to the Developers Hub. Here you can find all of the documentation, resources, and answers you need to get started with the SDK. </p>
+    <div class="showcase__media">
+                        </div>
 
-    <script src="https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/hcl-sdk.js"></script>
-    <script>      
-
-      // Initialize HCL SDK API
-
-      const hclAPI = new HclAPI({
-
-        apiKey: 'YOUR_API_KEY' // To replace by a working API key
-
+          <div class="showcase__integrate">
+        <div class="showcase__integrate__head">
+          <span class="showcase__integrate__head-dot"></span>
+          <span class="showcase__integrate__head-dot"></span>
+          <span class="showcase__integrate__head-dot"></span>
+                    </div>
+        <div class="showcase__integrate__content">
+          <!-- Add content here ... -->
+          <section class="showcase__integrate__wrapper" style="padding: 0px;">
+            <hcl-sdk class="hydrated"></hcl-sdk>
+          </section>
+        </div>
+      </div>
+    
+  </div>
+</div>
+<script type="text/javascript">
+  var hclSdkEl = document.querySelector('hcl-sdk');
+  if (hclSdkEl) {
+    customElements.whenDefined('hcl-sdk').then(function() {
+    hclSdkEl.init({
+        apiKey: '30004ce9a8df2ced',
+        appName: 'HealthCare Locator',
+        i18nBundlesPath: 'https://static.healthcarelocator.com/v1/hcl-sdk-web-ui/i18n',
+        appURL: 'https://www.healthcarelocator.com/',
+        countries: []
       });
+    });
+  }
+</script>
 
-    </script>
+        
+
+                  </div>
 
   </body>
 
