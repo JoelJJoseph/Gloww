@@ -243,7 +243,6 @@ if result:
     </script>
  </body>
   </html>
-  """,
-  height=600)
+  """,height=600)
   
 
