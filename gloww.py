@@ -232,6 +232,7 @@ ul li:hover:nth-child(3) a::after {
   </body>
   </head>
 
-""",height=600)
+""",
+         height=1000)
   
 
