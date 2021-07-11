@@ -219,35 +219,4 @@ ul li:hover:nth-child(3) a::after {
 }
 </style>""")
 
-    st.write(" ")
-    result = st.button ("Healthcare locator")
-    if result:
-       st.components.v1.html(
-"""<head>
-<body>
-<div class="showcase__integrate">
-        <div class="showcase__integrate__head">
-          <span class="showcase__integrate__head-dot"></span>
-          <span class="showcase__integrate__head-dot"></span>
-          <span class="showcase__integrate__head-dot"></span>
-                    </div>
-        <div class="showcase__integrate__content">
-          <!-- Add content here ... -->
-          <section class="showcase__integrate__wrapper" style="padding: 0px;">
-            <hcl-sdk class="hydrated"></hcl-sdk>
-          </section>
-        </div>
-      </div>
-      <div class="showcase__integrate__content">
-          <!-- Add content here ... -->
-          <section class="showcase__integrate__wrapper" style="padding: 0px;">
-            <hcl-sdk class="hydrated"></hcl-sdk>
-          </section>
-        </div>
-  </body>
-
-    </head>
-
-""",height=600)
   
-
